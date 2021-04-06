@@ -22,7 +22,7 @@ import "./styles.css";
 // import Dashboard3 from "./Dashboard3/Dashboard3";
 // DevDojo
 // import CardBoxes from "./DevDojo/CardBoxes";
-import CommentSection from "./DevDojo/CommentSection";
+// import CommentSection from "./DevDojo/CommentSection";
 // import ConnectPeople from "./DevDojo/ConnectPeople";
 // import ContactCard from "./DevDojo/ContactCard";
 // import ContentBrowser from "./DevDojo/ContentBrowser";
@@ -61,13 +61,13 @@ import CommentSection from "./DevDojo/CommentSection";
 // import Customers from "./LandingPage/Customers";
 // import Feature from "./LandingPage/Feature";
 // import HeroHeader from "./LandingPage/HeroHeader";
-// import Pricing from "./LandingPage/Pricing";
+import Pricing from "./LandingPage/Pricing";
 // Landmark - Templates
 // import Landmark from "./Landmark/Landmark";
 // LofiUI
 // import Chat from "./LofiUI/Chat";
 // import LofiDashboard from "./LofiUI/LofiDashboard";
-// import PricingComparison from "./LofiUI/PricingComparison";
+import PricingComparison from "./LofiUI/PricingComparison";
 // import ProductList2 from "./LofiUI/ProductList2";
 // import SlackUI from "./LofiUI/SlackUI";
 // import SocialFeed from "./LofiUI/SocialFeed";
@@ -80,6 +80,7 @@ import CommentSection from "./DevDojo/CommentSection";
 // import Workcation from "./Plus/Workcation"; // workcation.netlify.com
 // import WorkcationSplash from "./Plus/WorkcationSplash";
 // Tailblocks
+import Pricing2 from "./Tailblocks/Pricing2";
 // import Testi from "./Tailblocks/Testi";
 // import Teams2 from "./Tailblocks/Teams2";
 // Tailwind Build
@@ -94,11 +95,11 @@ import CommentSection from "./DevDojo/CommentSection";
 // import Teams from "./TailwindBuild/Teams";
 // Tailwind UIs
 // import CTA from "./TailwindUI/CTA";
-import EditProfile from "./TailwindUI/EditProfile";
+// import EditProfile from "./TailwindUI/EditProfile";
 // import FeatureSection from "./TailwindUI/FeatureSection";
 // import HeaderBanner from "./TailwindUI/HeaderBanner";
 // import HeroHeader2 from "./TailwindUI/HeroHeader2";
-import Modal from "./TailwindUI/Modal";
+// import Modal from "./TailwindUI/Modal";
 // import NavMegaMenu from "./TailwindUI/NavMegaMenu";
 // import Table from "./TailwindUI/Table";
 
@@ -111,7 +112,7 @@ export default function App() {
   return (
     <div className="">
       {/* app */}
-      <CommentSection />
+      <Pricing2 />
     </div>
   );
 }

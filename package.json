@@ -1,8 +1,11 @@
 {
   "name": "tailwind-components",
   "version": "1.0.0",
-  "description": "Test tailwind components",
-  "keywords": [],
+  "description": "Free react + tailwindcss components from various resources",
+  "keywords": [
+    "tailwindcss",
+    "react"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.1",
