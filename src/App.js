@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
 // Common
 // import Footer from "./Common/Footer";
@@ -45,6 +45,7 @@ import "./styles.css";
 // import TopBlogPosts from "./DevDojo/TopBlogPosts";
 // Ecommerce
 // import Cart from "./Ecommerce/Cart";
+import Cart2 from "./Ecommerce/Cart2";
 // import Checkout from "./Ecommerce/Checkout";
 // import Home from "./Ecommerce/Home";
 // import ProductDetail from "./Ecommerce/ProductDetail";
@@ -61,13 +62,13 @@ import "./styles.css";
 // import Customers from "./LandingPage/Customers";
 // import Feature from "./LandingPage/Feature";
 // import HeroHeader from "./LandingPage/HeroHeader";
-import Pricing from "./LandingPage/Pricing";
+// import Pricing from "./LandingPage/Pricing";
 // Landmark - Templates
 // import Landmark from "./Landmark/Landmark";
 // LofiUI
 // import Chat from "./LofiUI/Chat";
 // import LofiDashboard from "./LofiUI/LofiDashboard";
-import PricingComparison from "./LofiUI/PricingComparison";
+// import PricingComparison from "./LofiUI/PricingComparison";
 // import ProductList2 from "./LofiUI/ProductList2";
 // import SlackUI from "./LofiUI/SlackUI";
 // import SocialFeed from "./LofiUI/SocialFeed";
@@ -76,6 +77,7 @@ import PricingComparison from "./LofiUI/PricingComparison";
 // import MinimalBlogPost from "./Plus/MinimalBlogPost";
 // import Newsletter from "./Plus/Newsletter";
 // import SearchFilter from "./Plus/SearchFilter";
+import SelectWithCustomList from "./Plus/SelectWithCustomList";
 // import Tabs from "./Plus/Tabs"; // color="indigo"
 // import Workcation from "./Plus/Workcation"; // workcation.netlify.com
 // import WorkcationSplash from "./Plus/WorkcationSplash";
@@ -112,7 +114,7 @@ export default function App() {
   return (
     <div className="">
       {/* app */}
-      <Pricing2 />
+      <SelectWithCustomList />
     </div>
   );
 }
